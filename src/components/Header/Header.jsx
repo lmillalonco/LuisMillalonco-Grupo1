@@ -65,7 +65,7 @@ const Header = () => {
         </button>
       </div>
 
-      {/* Menú lateral para pantallas pequeñas */}
+      {/* Menú lateral para pantallas pequeñas u mobile */}
       <div
         className={`${
           nav ? "opacity-100 translate-x-0" : "opacity-0 translate-x-full"

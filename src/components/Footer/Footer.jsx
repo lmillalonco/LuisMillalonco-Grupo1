@@ -3,11 +3,10 @@ const Footer = () => {
       <div className='w-full  bg-[#2D3748]  text-[#F7FAFC]  py-4 px-4'>
         {/* Contenedor Principal */}
         <div className='max-w-[1200px] mx-auto grid grid-cols-2 gap-4 md:grid-cols-4 lg:grid-cols-6'>
-          {/*Columnas*/}
           <div>
-            <h4 className='font-bold uppercase pt-1 mb-4 text-sm transition-colors duration-300 hover:text-[#f97316] cursor-pointer'>
+            <h2 className='font-bold uppercase pt-1 mb-4 text-sm transition-colors duration-300 hover:text-[#f97316] cursor-pointer'>
               Islas
-            </h4>
+            </h2>
             <ul>
               <li className='py-0.5 text-sm transition-transform duration-300 hover:scale-105 cursor-pointer'>Llingua</li>
               <li className='py-0.5 text-sm transition-transform duration-300 hover:scale-105 cursor-pointer'>Quenac</li>
@@ -18,9 +17,9 @@ const Footer = () => {
             </ul>
           </div>
           <div>
-            <h4 className='font-bold uppercase pt-1 mb-4 text-sm transition-colors duration-300 hover:text-[#f97316] cursor-pointer'>
+            <h2 className='font-bold uppercase pt-1 mb-4 text-sm transition-colors duration-300 hover:text-[#f97316] cursor-pointer'>
               Galería
-            </h4>
+            </h2>
             <ul>
               <li className='py-0.5 text-sm transition-transform duration-300 hover:scale-105 cursor-pointer'>Arquitectura</li>
               <li className='py-0.5 text-sm transition-transform duration-300 hover:scale-105 cursor-pointer'>Paisajes</li>
@@ -28,9 +27,9 @@ const Footer = () => {
             </ul>
           </div>
           <div>
-            <h4 className='font-bold uppercase pt-1 mb-4 text-sm transition-colors duration-300 hover:text-[#f97316] cursor-pointer'>
+            <h2 className='font-bold uppercase pt-1 mb-4 text-sm transition-colors duration-300 hover:text-[#f97316] cursor-pointer'>
               Soporte
-            </h4>
+            </h2>
             <ul>
             <li className='transition-transform duration-300 hover:scale-105 cursor-pointer'>Centro de ayuda</li>
             <li className='transition-transform duration-300 hover:scale-105 cursor-pointer'>guia de usuario</li>
@@ -38,9 +37,9 @@ const Footer = () => {
             </ul>
           </div>
           <div>
-            <h4 className='font-bold uppercase pt-1 mb-4 text-sm transition-colors duration-300 hover:text-[#f97316] cursor-pointer'>
+            <h2 className='font-bold uppercase pt-1 mb-4 text-sm transition-colors duration-300 hover:text-[#f97316] cursor-pointer'>
               Tours
-            </h4>
+            </h2>
             <ul>
               <li className='py-0.5 text-sm transition-transform duration-300 hover:scale-105 cursor-pointer'>Tour Chepu</li>
               <li className='py-0.5 text-sm transition-transform duration-300 hover:scale-105 cursor-pointer'>Tantauco</li>
@@ -49,7 +48,7 @@ const Footer = () => {
               <li className='py-0.5 text-sm transition-transform duration-300 hover:scale-105 cursor-pointer'>Bosque Piedra</li>
             </ul>
           </div>
-          {/* Formulario */}
+          {/* formulario */}
           <div className='col-span-2 md:col-span-4 lg:col-span-2 flex flex-col items-start justify-center'>
             <p className='font-bold uppercase text-sm transition-colors duration-300 hover:text-[#f97316] cursor-pointer mb-4'>
               Suscríbete
@@ -66,7 +65,7 @@ const Footer = () => {
             </form>
           </div>
         </div>
-        {/* Copyright */}
+        {/* copyright */}
         <div className='text-center py-4 bg-[#2D3748] text-[#F7FAFC] '>
           © {new Date().getFullYear()} Luis Millalonco. Todos los derechos reservados.
         </div>
