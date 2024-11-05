@@ -1,6 +1,6 @@
 const Footer = () => {
     return (
-      <div className='w-full  bg-[#2D3748]  text-[#F7FAFC]  py-4 px-4'>
+      <div className='w-full  bg-[#2D3748]  text-[#F7FAFC]  py-1 px-4'>
         {/* Contenedor Principal */}
         <div className='max-w-[1200px] mx-auto grid grid-cols-2 gap-4 md:grid-cols-4 lg:grid-cols-6'>
           <div>
@@ -8,12 +8,12 @@ const Footer = () => {
               Islas
             </h2>
             <ul>
-              <li className='py-0.5 text-sm transition-transform duration-300 hover:scale-105 cursor-pointer'>Llingua</li>
-              <li className='py-0.5 text-sm transition-transform duration-300 hover:scale-105 cursor-pointer'>Quenac</li>
-              <li className='py-0.5 text-sm transition-transform duration-300 hover:scale-105 cursor-pointer'>Chaulinec</li>
-              <li className='py-0.5 text-sm transition-transform duration-300 hover:scale-105 cursor-pointer'>Lemuy</li>
-              <li className='py-0.5 text-sm transition-transform duration-300 hover:scale-105 cursor-pointer'>Apiao</li>
-              <li className='py-0.5 text-sm transition-transform duration-300 hover:scale-105 cursor-pointer'>Alao</li>
+              <li className='py-0.5 text-xs transition-transform duration-300 hover:scale-105 cursor-pointer'>Llingua</li>
+              <li className='py-0.5 text-xs transition-transform duration-300 hover:scale-105 cursor-pointer'>Quenac</li>
+              <li className='py-0.5 text-xs transition-transform duration-300 hover:scale-105 cursor-pointer'>Chaulinec</li>
+              <li className='py-0.5 text-xs transition-transform duration-300 hover:scale-105 cursor-pointer'>Lemuy</li>
+              <li className='py-0.5 text-xs transition-transform duration-300 hover:scale-105 cursor-pointer'>Apiao</li>
+              <li className='py-0.5 text-xs transition-transform duration-300 hover:scale-105 cursor-pointer'>Alao</li>
             </ul>
           </div>
           <div>
@@ -21,9 +21,9 @@ const Footer = () => {
               Galería
             </h2>
             <ul>
-              <li className='py-0.5 text-sm transition-transform duration-300 hover:scale-105 cursor-pointer'>Arquitectura</li>
-              <li className='py-0.5 text-sm transition-transform duration-300 hover:scale-105 cursor-pointer'>Paisajes</li>
-              <li className='py-0.5 text-sm transition-transform duration-300 hover:scale-105 cursor-pointer'>Flora y Fauna</li>
+              <li className='py-0.5 text-xs transition-transform duration-300 hover:scale-105 cursor-pointer'>Arquitectura</li>
+              <li className='py-0.5 text-xs transition-transform duration-300 hover:scale-105 cursor-pointer'>Paisajes</li>
+              <li className='py-0.5 text-xs transition-transform duration-300 hover:scale-105 cursor-pointer'>Flora y Fauna</li>
             </ul>
           </div>
           <div>
@@ -31,9 +31,9 @@ const Footer = () => {
               Soporte
             </h2>
             <ul>
-            <li className='transition-transform duration-300 hover:scale-105 cursor-pointer'>Centro de ayuda</li>
-            <li className='transition-transform duration-300 hover:scale-105 cursor-pointer'>guia de usuario</li>
-            <li className='transition-transform duration-300 hover:scale-105 cursor-pointer'>reportar un problema</li>
+            <li className='text-xs transition-transform duration-300 hover:scale-105 cursor-pointer'>Centro de ayuda</li>
+            <li className='text-xs transition-transform duration-300 hover:scale-105 cursor-pointer'>guia de usuario</li>
+            <li className='text-xs transition-transform duration-300 hover:scale-105 cursor-pointer'>reportar un problema</li>
             </ul>
           </div>
           <div>
@@ -41,11 +41,11 @@ const Footer = () => {
               Tours
             </h2>
             <ul>
-              <li className='py-0.5 text-sm transition-transform duration-300 hover:scale-105 cursor-pointer'>Tour Chepu</li>
-              <li className='py-0.5 text-sm transition-transform duration-300 hover:scale-105 cursor-pointer'>Tantauco</li>
-              <li className='py-0.5 text-sm transition-transform duration-300 hover:scale-105 cursor-pointer'>Isla Quinchao</li>
-              <li className='py-0.5 text-sm transition-transform duration-300 hover:scale-105 cursor-pointer'>Aves de Chiloe</li>
-              <li className='py-0.5 text-sm transition-transform duration-300 hover:scale-105 cursor-pointer'>Bosque Piedra</li>
+              <li className='py-0.5 text-xs transition-transform duration-300 hover:scale-105 cursor-pointer'>Tour Chepu</li>
+              <li className='py-0.5 text-xs transition-transform duration-300 hover:scale-105 cursor-pointer'>Tantauco</li>
+              <li className='py-0.5 text-xs transition-transform duration-300 hover:scale-105 cursor-pointer'>Isla Quinchao</li>
+              <li className='py-0.5 text-xs transition-transform duration-300 hover:scale-105 cursor-pointer'>Aves de Chiloe</li>
+              <li className='py-0.5 text-xs transition-transform duration-300 hover:scale-105 cursor-pointer'>Bosque Piedra</li>
             </ul>
           </div>
           {/* formulario */}
@@ -67,7 +67,7 @@ const Footer = () => {
         </div>
         {/* copyright */}
         <div className='text-center py-4 bg-[#2D3748] text-[#F7FAFC] '>
-          © {new Date().getFullYear()} Luis Millalonco. Todos los derechos reservados.
+          &copy; {new Date().getFullYear()} Luis Millalonco. Todos los derechos reservados.
         </div>
       </div>
     );

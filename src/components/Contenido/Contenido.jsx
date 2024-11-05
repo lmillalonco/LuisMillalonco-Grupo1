@@ -19,7 +19,6 @@ const Contenido = () => {
         </div>
       </div>
     );
-  };
-  
-  export default Contenido;
-  
+};
+
+export default Contenido;
