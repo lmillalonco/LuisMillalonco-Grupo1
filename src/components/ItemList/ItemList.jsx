@@ -3,6 +3,7 @@ import { getProducts } from "../../data/comercio";
 import Item from "../Item/Item";
 import { Link } from "react-router-dom";
 
+
 const ItemList = () => {
     const [products, setProducts] = useState([]);
     const [loading, setLoading] = useState(true);
@@ -23,11 +24,11 @@ const ItemList = () => {
     return (
         <div className="max-w-7xl mx-auto p-4 mt-16 cursor-pointer">
             <div className="mb-4">
-                <label className="font-semibold mr-2 cursor-pointer">Filtrar por categoría:</label>
+                <label className="font-semibold md:text-sm mr-2 cursor-pointer">Filtrar por categoría:</label>
                 <select
                     value={selectedCategory}
                     onChange={(e) => setSelectedCategory(e.target.value)}
-                    className="border border-gray-300 p-2 rounded bg-white hover:bg-orange-100 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-orange-500 transition-colors duration-300"
+                    className="border border-gray-300 p-2 rounded bg-white hover:bg-orange-100 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-orange-500 transition-colors duration-300 md:text-sm"
                 >
                         {/*opciones de filtrado*/}
                     <option value="all">Todos</option>

@@ -1,12 +1,15 @@
+import { Link } from "react-router-dom";
 const Footer = () => {
     return (
       <div className='w-full  bg-[#2D3748]  text-[#F7FAFC]  py-1 px-4'>
-        {/* Contenedor Principal */}
         <div className='max-w-[1200px] mx-auto grid grid-cols-2 gap-4 md:grid-cols-4 lg:grid-cols-6'>
           <div>
+            <Link to="/about">
             <h2 className='font-bold uppercase pt-1 mb-4 text-sm transition-colors duration-300 hover:text-[#f97316] cursor-pointer'>
-              Islas
+            About
             </h2>
+            </Link>
+
             <ul>
               <li className='py-0.5 text-xs transition-transform duration-300 hover:scale-105 cursor-pointer'>Llingua</li>
               <li className='py-0.5 text-xs transition-transform duration-300 hover:scale-105 cursor-pointer'>Quenac</li>
@@ -17,9 +20,12 @@ const Footer = () => {
             </ul>
           </div>
           <div>
+          <Link to="/historia">
             <h2 className='font-bold uppercase pt-1 mb-4 text-sm transition-colors duration-300 hover:text-[#f97316] cursor-pointer'>
-              Galería
+                Historia
             </h2>
+          </Link>
+
             <ul>
               <li className='py-0.5 text-xs transition-transform duration-300 hover:scale-105 cursor-pointer'>Arquitectura</li>
               <li className='py-0.5 text-xs transition-transform duration-300 hover:scale-105 cursor-pointer'>Paisajes</li>
@@ -27,9 +33,12 @@ const Footer = () => {
             </ul>
           </div>
           <div>
+          <Link to="/cart">
             <h2 className='font-bold uppercase pt-1 mb-4 text-sm transition-colors duration-300 hover:text-[#f97316] cursor-pointer'>
-              Soporte
+                  Cart
             </h2>
+          </Link>
+
             <ul>
             <li className='text-xs transition-transform duration-300 hover:scale-105 cursor-pointer'>Centro de ayuda</li>
             <li className='text-xs transition-transform duration-300 hover:scale-105 cursor-pointer'>guia de usuario</li>
@@ -37,9 +46,12 @@ const Footer = () => {
             </ul>
           </div>
           <div>
-            <h2 className='font-bold uppercase pt-1 mb-4 text-sm transition-colors duration-300 hover:text-[#f97316] cursor-pointer'>
-              Tours
-            </h2>
+          <Link to="/contact">
+              <h2 className='font-bold uppercase pt-1 mb-4 text-sm transition-colors duration-300 hover:text-[#f97316] cursor-pointer'>
+                Contacto
+              </h2>
+          </Link>
+
             <ul>
               <li className='py-0.5 text-xs transition-transform duration-300 hover:scale-105 cursor-pointer'>Tour Chepu</li>
               <li className='py-0.5 text-xs transition-transform duration-300 hover:scale-105 cursor-pointer'>Tantauco</li>

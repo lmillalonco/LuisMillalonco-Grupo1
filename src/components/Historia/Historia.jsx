@@ -1,13 +1,12 @@
 const Historia = () => {
     return (
-        <div className="h-auto bg-orange-800 mx-auto pt-12 px-6 lg:px-12 lg:pt-16 mt-5">
+        <div className="h-auto bg-gradient-to-r from-indigo-900 via-yellow-800 to-black min-h-screen pt-32 pb-16 mx-auto px-6 lg:px-12 lg:pt-16 mt-5">
             <div className="max-w-5xl mx-auto grid lg:grid-cols-3 gap-6 lg:gap-8">
-                {/* Sección de texto */}
                 <div className="lg:col-span-1">
-                    <h3 className="text-3xl font-bold hover:text-blue-600 duration-300 cursor-pointer text-center lg:text-left">
+                    <h3 className="text-3xl text-white hover:text-blue-500 duration-300 cursor-pointer text-center lg:text-left">
                         Provincia
                     </h3>
-                    <p className="mt-10 text-gray-200 text-xs lg:text-sm text-center lg:text-left leading-relaxed">
+                    <p className="mt-10 text-gray-300 text-xs lg:text-sm text-center lg:text-left leading-relaxed">
                     La Provincia de Chiloé comprende la totalidad del archipiélago del mismo nombre, está formada por más de 40 islas menores y la Isla grande, la cual posee una superficie de 9.181,5kms², siendo la isla más grande de Sudamérica después de Tierra del Fuego.
 
                     Los Poblados chilotes conservan el encanto, tradición y costumbres de sus habitantes, lo que constituye la principal riqueza de estas tierras.
