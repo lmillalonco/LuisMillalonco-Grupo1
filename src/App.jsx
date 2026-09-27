@@ -35,7 +35,7 @@ function App() {
       <section id="contacto" className="bg-[#D4A574] py-16 px-8 text-center">
         <h2 className="text-3xl font-bold text-[#2D4A22] mb-3">¿Listo para venir?</h2>
         <p className="mb-6 text-[#2D4A22]/80">Escríbenos y te mandamos el programa con fotos reales.</p>
-        <a href="https://wa.me/56900000000?text=Hola%20quiero%20info%20Chiloe%20Origen" target="_blank" className="bg-[#2D4A22] text-white px-8 py-3 rounded-full font-bold inline-block">Hablar por WhatsApp</a>
+        <a href="https://wa.me/56940376823?text=Hola%20quiero%20info%20Chiloe%20Origen" target="_blank" className="bg-[#2D4A22] text-white px-8 py-3 rounded-full font-bold inline-block">Hablar por WhatsApp</a>
         <p className="mt-4 text-xs text-[#2D4A22]/60">Curaco de Vélez - Chiloé - Chile</p>
       </section>
     </div>
